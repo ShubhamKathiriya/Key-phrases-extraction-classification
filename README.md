@@ -48,7 +48,7 @@
 
 ```python
 
-    python project.py -t
+    python main.py -t
 
 ```
 
@@ -59,7 +59,7 @@
 
 ```python
 
-    python project.py  -e  keyphrase_exctration_model_path  ner_model_path  nli_model_path 
+    python main.py  -e  keyphrase_exctration_model_path  ner_model_path  nli_model_path 
 
 ```
 
@@ -70,7 +70,7 @@
 
 ```python
 
-    python project.py  -e  keyphrase_exctration_model_path  ner_model_path  nli_model_path  abstract_file_path
+    python main.py  -e  keyphrase_exctration_model_path  ner_model_path  nli_model_path  abstract_file_path
 
 ```
 
@@ -78,5 +78,5 @@
 
 ## Notes:-
 
-- Preprocessed_should be in same folder where project.py is
+- Preprocessed_should be in same folder where main.py is
 - All model:- https://drive.google.com/drive/folders/1h-ncFwGeYtlP0wCdYhvKlu7OPqN_OjUS?usp=sharing
